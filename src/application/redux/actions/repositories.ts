@@ -3,7 +3,8 @@ import {
     ActionTypes,
     ISearchRepositoriesAction,
     ISearchRepositoriesSuccessAction,
-    ISearchRepositoriesErrorAction, TThunkAction,
+    ISearchRepositoriesErrorAction,
+    TThunkAction,
 } from '../action-types/repositories';
 
 const searchRepositoriesStart = (): ISearchRepositoriesAction => ({
